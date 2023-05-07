@@ -3,39 +3,49 @@ body{
 }
 
 
-#Testimonials{
+.company-logo .container{
     background-image: url(./img/Testimonials.png);
     background-repeat: no-repeat;
     width: 1920px;
     height: 504px;
 }
-#Testimonials>.hug{
+.company-logo .container>.hug{
     width: 1900px;
     height: 67px;
     padding-top: 3px;
 }
-#Testimonials .hug .hug-hug {
+.company-logo .container .hug .hug-hug {
     height: 65px;
     
 }
-#Testimonials .hug .hug-hug .left {
+.company-logo .container .hug .hug-hug .left {
     margin: 0 30px 0 700px;
     width: 30px;
     height: 30px;
     border-radius: 15px;
     display: inline-flex;
     border: 1px solid #000;
+    padding: 2px;
 
 }
-#Testimonials .hug .hug-hug .right {
+.company-logo .container .hug .hug-hug .right {
     width: 30px;
     height: 30px;
     border-radius: 15px;
     display: inline-flex;
     border: 1px solid #000;
+    background: #1A1A1A;
+    padding: 2px;
+}
+.company-logo .container .hug .hug-hug .left :hover {
+    background: green;
+}
+.company-logo .container .hug .hug-hug .right :hover {
+    background: green;
 }
 
-#Testimonials .hug .hug-hug h1{
+
+.company-logo .container .hug .hug-hug h1{
     width: 122px;
     height: 19px;
     font-family: 'Segoe Script';
@@ -52,7 +62,7 @@ body{
     margin-top: 70px;
     margin-bottom: 0;
 }
-#Testimonials .hug .hug-hug p{
+.company-logo .container .hug .hug-hug p{
     margin-left: 300px;
     margin-bottom: 70px;
     margin-top: 0;
@@ -69,7 +79,7 @@ body{
     flex-grow: 0;
     display: inline-flex;
 }
-#Testimonials .hug .card img{
+.company-logo .container .hug .card img{
     width: 32px;
 height: 26px;
 color: #00B307;
@@ -77,7 +87,7 @@ opacity: 0.3;
 margin: -40px -25px 30px;
 
 }
-#Testimonials .hug .card .card-item {
+.company-logo .container .hug .card .card-item {
     height: 84px;
 width: 376px;
 left: 24px;
@@ -86,23 +96,23 @@ border-radius: nullpx;
 /*margin-left: 30px;*/
 
 }
-#Testimonials .hug .card .card-item .profil{
+.company-logo .container .hug .card .card-item .profil{
     width: 56px;
     height: 56px;
     border-radius: 28px;
     background: #999;
     display: inline-block;
 }
-#Testimonials .hug .card .card-item .profill{
+.company-logo .container .hug .card .card-item .profill{
     width: 106px;
     height: 40px;
     display: inline-block;
 }
-#Testimonials .hug .card .card-item .profill h5{
+.company-logo .container .hug .card .card-item .profill h5{
     margin: 0;
     margin-top: -10px;
 }
-#Testimonials .hug .card {
+.company-logo .container .hug .card {
     height: 154px;
 width: 424px;
 left: 0px;
@@ -114,7 +124,7 @@ margin: 60px 0 70px 280px;
 }
 
 
-#Testimonials .hug .card2 img{
+.company-logo .container .hug .card2 img{
     width: 32px;
 height: 26px;
 color: #00B307;
@@ -122,7 +132,7 @@ opacity: 0.3;
 margin: -40px -25px 30px;
 
 }
-#Testimonials .hug .card2 .card-item {
+.company-logo .container .hug .card2 .card-item {
     height: 84px;
 width: 376px;
 left: 24px;
@@ -131,23 +141,23 @@ border-radius: nullpx;
 /*margin-left: 30px;*/
 
 }
-#Testimonials .hug .card2 .card-item .profil{
+.company-logo .container .hug .card2 .card-item .profil{
     width: 56px;
     height: 56px;
     border-radius: 28px;
     background: #999;
     display: inline-block;
 }
-#Testimonials .hug .card2 .card-item .profill{
+.company-logo .container .hug .card2 .card-item .profill{
     width: 126px;
     height: 40px;
     display: inline-block;
 }
-#Testimonials .hug .card2 .card-item .profill h5{
+.company-logo .container .hug .card2 .card-item .profill h5{
     margin: 0;
     margin-top: -10px;
 }
-#Testimonials .hug .card2 {
+.company-logo .container .hug .card2 {
     height: 154px;
 width: 424px;
 left: 0px;
@@ -160,14 +170,14 @@ display: inline-flex;
 
 
 
-#Testimonials .hug .card3 img{
+.company-logo .container .hug .card3 img{
     width: 32px;
 height: 26px;
 color: #00B307;
 opacity: 0.3;
 margin: -40px -25px 30px;
 }
-#Testimonials .hug .card3 .card-item {
+.company-logo .container .hug .card3 .card-item {
     height: 84px;
 width: 376px;
 left: 24px;
@@ -176,23 +186,23 @@ border-radius: nullpx;
 /*margin-left: 30px;*/
 
 }
-#Testimonials .hug .card3 .card-item .profil{
+.company-logo .container .hug .card3 .card-item .profil{
     width: 56px;
     height: 56px;
     border-radius: 28px;
     background: #999;
     display: inline-block;
 }
-#Testimonials .hug .card3 .card-item .profill{
+.company-logo .container .hug .card3 .card-item .profill{
     width: 120px;
     height: 40px;
     display: inline-block;
 }
-#Testimonials .hug .card3 .card-item .profill h5{
+.company-logo .container .hug .card3 .card-item .profill h5{
     margin: 0;
     margin-top: -10px;
 }
-#Testimonials .hug .card3 {
+.company-logo .container .hug .card3 {
     height: 154px;
 width: 424px;
 left: 0px;
@@ -202,4 +212,26 @@ padding: 24px;
 display: inline-flex;
 
 
+}
+
+.company-logo .container .hug .card .card-item ul{
+    display: flex;
+margin-left: 214px;
+margin-top: -5px;
+gap: 30px;
+cursor: pointer;
+}
+.company-logo .container .hug .card2 .card-item ul{
+    display: flex;
+margin-left: 214px;
+margin-top: -5px;
+gap: 30px;
+cursor: pointer;
+}
+.company-logo .container .hug .card3 .card-item ul{
+    display: flex;
+    margin-left: 214px;
+    margin-top: -5px;
+    gap: 30px;
+    cursor: pointer;
 }
