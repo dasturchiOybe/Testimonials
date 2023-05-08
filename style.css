@@ -24,7 +24,7 @@ body{
     height: 30px;
     border-radius: 15px;
     display: inline-flex;
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     padding: 2px;
 
 }
@@ -33,9 +33,10 @@ body{
     height: 30px;
     border-radius: 15px;
     display: inline-flex;
-    border: 1px solid #000;
-    background: #1A1A1A;
+    /*border: 1px solid #000;*/
+    /*background: #1A1A1A;*/
     padding: 2px;
+    transform: rotate(180deg);
 }
 .company-logo .container .hug .hug-hug .left :hover {
     background: green;
@@ -81,19 +82,19 @@ body{
 }
 .company-logo .container .hug .card img{
     width: 32px;
-height: 26px;
-color: #00B307;
-opacity: 0.3;
-margin: -40px -25px 30px;
+    height: 26px;
+    color: #00B307;
+    opacity: 0.3;
+    margin: -40px -25px 30px;
 
 }
 .company-logo .container .hug .card .card-item {
     height: 84px;
-width: 376px;
-left: 24px;
-top: 66px;
-border-radius: nullpx;
-/*margin-left: 30px;*/
+    width: 376px;
+    left: 24px;
+    top: 66px;
+    border-radius: nullpx;
+    /*margin-left: 30px;*/
 
 }
 .company-logo .container .hug .card .card-item .profil{
@@ -114,31 +115,31 @@ border-radius: nullpx;
 }
 .company-logo .container .hug .card {
     height: 154px;
-width: 424px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-padding: 24px;
-display: inline-flex;
-margin: 60px 0 70px 280px;
+    width: 424px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 24px;
+    display: inline-flex;
+    margin: 60px 0 70px 280px;
 }
 
 
 .company-logo .container .hug .card2 img{
     width: 32px;
-height: 26px;
-color: #00B307;
-opacity: 0.3;
-margin: -40px -25px 30px;
+    height: 26px;
+    color: #00B307;
+    opacity: 0.3;
+    margin: -40px -25px 30px;
 
 }
 .company-logo .container .hug .card2 .card-item {
     height: 84px;
-width: 376px;
-left: 24px;
-top: 66px;
-border-radius: nullpx;
-/*margin-left: 30px;*/
+    width: 376px;
+    left: 24px;
+    top: 66px;
+    border-radius: nullpx;
+    /*margin-left: 30px;*/
 
 }
 .company-logo .container .hug .card2 .card-item .profil{
@@ -159,12 +160,12 @@ border-radius: nullpx;
 }
 .company-logo .container .hug .card2 {
     height: 154px;
-width: 424px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-padding: 24px;
-display: inline-flex;
+    width: 424px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 24px;
+    display: inline-flex;
 
 }
 
@@ -172,18 +173,18 @@ display: inline-flex;
 
 .company-logo .container .hug .card3 img{
     width: 32px;
-height: 26px;
-color: #00B307;
-opacity: 0.3;
-margin: -40px -25px 30px;
+    height: 26px;
+    color: #00B307;
+    opacity: 0.3;
+    margin: -40px -25px 30px;
 }
 .company-logo .container .hug .card3 .card-item {
     height: 84px;
-width: 376px;
-left: 24px;
-top: 66px;
-border-radius: nullpx;
-/*margin-left: 30px;*/
+    width: 376px;
+    left: 24px;
+    top: 66px;
+    border-radius: nullpx;
+    /*margin-left: 30px;*/
 
 }
 .company-logo .container .hug .card3 .card-item .profil{
@@ -204,34 +205,39 @@ border-radius: nullpx;
 }
 .company-logo .container .hug .card3 {
     height: 154px;
-width: 424px;
-left: 0px;
-top: 0px;
-border-radius: 8px;
-padding: 24px;
-display: inline-flex;
+    width: 424px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 24px;
+    display: inline-flex;
 
 
 }
 
 .company-logo .container .hug .card .card-item ul{
     display: flex;
-margin-left: 214px;
-margin-top: -5px;
-gap: 30px;
-cursor: pointer;
+    margin-left: 214px;
+    margin-top: -1px;
+    gap: 30px;
+    cursor: pointer;
+    list-style: none;
 }
 .company-logo .container .hug .card2 .card-item ul{
     display: flex;
-margin-left: 214px;
-margin-top: -5px;
-gap: 30px;
-cursor: pointer;
+    margin-left: 214px;
+    margin-top: -1px;
+    gap: 30px;
+    cursor: pointer;
+    list-style: none;
+
 }
 .company-logo .container .hug .card3 .card-item ul{
     display: flex;
     margin-left: 214px;
-    margin-top: -5px;
+    margin-top: -1px;
     gap: 30px;
     cursor: pointer;
+    list-style: none;
+
 }
